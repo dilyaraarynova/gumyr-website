@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Ğūmyr</title>
+  <link rel="icon" type="image" href="/images/logo_black.png" />
+  <script src="home_page.js" defer></script>
+  <link href="home_page.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <img id="gumyr_icon" src="/images/logo.png" alt="gumyr_icon" width="5%">
+        
+        <li>
+          <a href="home_page.html">Главная</a>
+        </li>
+        <li>
+          <a href="profile_page.html">Моя страница</a>
+        </li>
+<!--           <a href="courses_page.html">Курсы</a> -->
+  <div class="dropdown">
+    <button class="dropbtn">Курсы &#9662
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="cl_page.html">Компьютерная грамотность</a>
+      <a href="english_page.html">Английский</a>
+      <a href="lit_page.html">Литература</a>
+    </div>
+  </div>
+        <li>
+          <a href="about_page.html">О нас</a>
+        </li>
+      </ul>
+      <a href="login_page.html"><button class="button">Вход</button></a>
+      <a href="reg_page.html"><button class="button">Регистрация</button></a>
+    </nav>
+  </header>
+  <article>
+    <div class="article_header">
+      <h1>Узнайте о технологиях, гаджетах и компьютерной грамотности!</h1>
+      <h2><a href="about_page.html" class="register-link">О нас</a></h2>
+    </div>
+
+
+    <div>
+      <h2>Новости из мира технологий</h2>
+      <div class="button-container">
+        <button class="button1" type="button" onclick="previousNews()">
+          &lt
+        </button>
+        <button class="button2" type="button" onclick="nextNews()">&gt</button>
+      </div>
+
+      <div class="polaroid">
+        <a id="name" href="" title="" name="" target="_blank">
+          <img id="image" src=" " height="300" width="450" />
+        </a>
+      </div>
+    </div>
+
+    <h2>Литературные клубы которые могут вас заинтересовать!</h2>
+
+    <div class="lit_club1">
+      <img class="lit_club1_picture" src="/images/literature_clubs1.jpeg" alt="books" />
+      <a href="#" class="lit_club1_text">
+        <strong>
+          <em>Книжный клуб</em> <br />
+          Книга этого месяца: <br />
+          "Преступление и наказание" <br />
+          роман Фёдора Достоевского
+        </strong>
+      </a>
+    </div>
+
+    <div class="lit_club2">
+      <img class="lit_club2_picture" src="/images/literature_clubs2.jpeg" alt="books" />
+      <a href="#" class="lit_club2_text">
+        <strong>
+          <em>Клуб писателей</em> <br />
+           Интернет-сообщество писателей <br />
+           где писатели получают качественную <br />
+           критику и отзывы о письме
+        </strong>
+      </a>
+    </div>
+  </article>
+
+  <footer>
+    <h3>Свяжитесь с нами!</h3>
+    <a href="https://web.telegram.org/z/#5278706443" target="_blank">
+      <img src="/images/gmail.png" width="30px" alt="gmail icon" />
+    </a>
+  </footer>
+</body>

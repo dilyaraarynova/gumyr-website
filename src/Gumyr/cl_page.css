@@ -1,0 +1,252 @@
+body {
+  font-family: Trebuchet MS;
+  background-color: rgb(226, 222, 232);
+  margin: 0;
+}
+
+iframe {
+  border-radius: 5%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown,
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(157, 147, 201);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(68, 80, 92);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #dddddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#gumyr_icon {
+  margin: 10px 5px 15px 20px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  top: 4px;
+}
+
+header {
+  position: relative;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: inline;
+  margin: auto;
+}
+
+nav li {
+  margin: auto;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+/* nav {
+  width: 100%;
+  border-bottom: 0.5px solid rgb(0, 0, 0);
+  background-color: rgb(68, 80, 92);
+  position: fixed;
+  top: 0px;
+} */
+
+nav {
+  width: 100%;
+  border-bottom: 0.5px solid rgb(0, 0, 0);
+  background-color: rgb(68, 80, 92);
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h1,
+p {
+  text-align: center;
+  color: rgb(68, 80, 92);
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.button,
+.button1,
+.button2 {
+  appearance: none;
+  background-color: rgb(244, 245, 245);
+  border: 2px solid rgb(43, 60, 69);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(43, 60, 69);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 10px 5px 15px 20px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button:disabled,
+.button1:disabled,
+.button2:disabled {
+  pointer-events: none;
+}
+
+.button:hover,
+.button1:hover,
+.button2:hover {
+  color: #fff;
+  background-color: rgb(43, 60, 69);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active,
+.button1:active,
+.button2:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+a:link {
+  color: rgb(244, 245, 245);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(244, 245, 245);
+}
+
+a:hover {
+  color: rgb(157, 147, 201);
+}
+
+a:active {
+  text-decoration: dotted;
+}
+
+footer {
+  text-align: center;
+  border-top: 0.5px solid rgb(43, 60, 69);
+  background-color: rgba(68, 80, 92, 0.12);
+}
+
+.button-container {
+  display: block;
+  text-align: center;
+}
+
+.courses {
+  background-color: rgba(68, 80, 92, 0.12);
+}
+
+.course_picture {
+  border-radius: 10%;
+  display: inline;
+  margin: auto;
+  opacity: 0.7;
+  width: 540px;
+  height: 300px;
+}
+
+.cl_course1 {
+  margin: 3%;
+  position: relative;
+  text-align: center;
+}
+.course_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(244, 245, 245);
+}
+
+.cl_course2 {
+  margin: 3%;
+  position: relative;
+  text-align: center;
+}
+.cl_course3 {
+  margin: 3%;
+  position: relative;
+  text-align: center;
+}
